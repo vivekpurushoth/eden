@@ -202,7 +202,7 @@ def index():
                                     )
                                  )
 
-    div_arrow = DIV(IMG(_src = "/%s/static/img/arrow_blue_right_temp.png" % \
+    div_arrow = DIV(IMG(_src = "/%s/static/img/arrow_blue_right.png" % \
                                request.application),
                           _class = "div_arrow")
     sit_dec_res_box = DIV(menu_divs["sit"],
