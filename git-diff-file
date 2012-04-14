@@ -1,0 +1,34 @@
+diff --git a/controllers/default.py b/controllers/default.py
+index dd883f3..b72ed63 100755
+--- a/controllers/default.py
++++ b/controllers/default.py
+@@ -202,7 +202,7 @@ def index():
+                                     )
+                                  )
+ 
+-    div_arrow = DIV(IMG(_src = "/%s/static/img/arrow_blue_right.png" % \
++    div_arrow = DIV(IMG(_src = "/%s/static/img/arrow_blue_right_temp.png" % \
+                                request.application),
+                           _class = "div_arrow")
+     sit_dec_res_box = DIV(menu_divs["sit"],
+diff --git a/static/styles/S3/sahana.css b/static/styles/S3/sahana.css
+index 7f43ceb..ccc0838 100644
+--- a/static/styles/S3/sahana.css
++++ b/static/styles/S3/sahana.css
+@@ -1472,7 +1472,7 @@ div#last_update {
+ }
+ 
+ .div_arrow     {
+-    padding: 0 15px;
++    padding: 0 120px;
+     text-align:left;
+     margin-top: 100px;
+ }
+@@ -1726,4 +1726,4 @@ a:visited:after {
+ }
+ .search_select_letter_label.expanded {
+     background: url( ../../img/icon_blue_minus15px.png ) no-repeat;
+-}
+\ No newline at end of file
++}
+
